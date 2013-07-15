@@ -1,7 +1,12 @@
 EARedditAPI
 ===========
+##Usage
+
+```objective-c
+EARedditAPI *api = [[EARedditAPI alloc] initWithUsername:@"username" andPassword:@"password"];
+[api login];
+```
 <table>
- <tr><th colspan="2" style="text-align:center;">Usage</th></tr>
   <tr>
     <td>Upvote a comment or link</td>
     <td>[api upvoteThing:@"tx_xxxxx"];</td>
@@ -62,7 +67,7 @@ EARedditAPI
     <td>Unmark a post or comment as NSFW</td>
     <td>[api unmarkNSFWWithThingID:@"tx_xxxxx"];</td>
   </tr>
-    <tr>
+   <tr>
     <td>Send a PM to a user</td>
     <td>[api sendPMTo:@"username" withSubject:@"Message Subject" andMessage:@"Message Body"];</td>
   </tr>
