@@ -26,14 +26,11 @@
     connectionData = [[NSMutableDictionary alloc] init];
     userName = uname;
     password = psword;
-    authenticated = YES;
+    authenticated = NO;
     isMod = NO;
     hasGold = NO;
     isOver18 = NO;
     hasVerifiedEmail = NO;
-    modHash = @"ekbhfbq4zz3592288c76ca048ec0d4ea0d379a71bb45f3823f";
-    cookieString = @"15900866,2013-07-15T00:18:39,7390fcc1b13cfb0c7ce4234e99cf1a4e962abd5f";
-    //[self login];
     return self;
 }
 
